@@ -99,6 +99,8 @@ I observed web-related network traffic while loading a website.
 HTTPS traffic is encrypted, so the contents of the communication are
 not normally visible as readable webpage data in Wireshark.
 
+## 0SI Model 
+
 ## TryHackMe
 
 Completed Pre Security-Network Fundamentals. 
@@ -116,11 +118,18 @@ How it works:
 DCHP:
 
 ## OverTheWire Bandit
-
 Reached Level 8-9
 
+Level 5-6: used find command
+
+Level 6-7: also used the find command, but with the command  2>/dev/null to silence other errors that were shown
+
+Level 7-8: used the grep command
+
+Level 8-9: used sort and uniq, because that hint said it was just mentioned once
+
 ## What confused me
-Did every level easily, but I got stuck on level 4 because it uses the word human-readable file, just a word confusion. Otherwise, I did very well
+I did every level easily, but I got confused when I saw "permission denied" on level 6-7 and then searched what I should be doing.
 
 ## What I learned
 
