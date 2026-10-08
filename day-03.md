@@ -4,6 +4,28 @@
 
 Nmap (Network Mapper). It is a network scanning tool used to discover open ports, hosts, services, and sometimes operating systems.
 
+nmap <target>
+
+nmap -sn <target>
+
+nmap -sT <target>
+
+nmap -sS <target>
+
+nmap -p 22,80,443 <target>
+
+nmap -p- <target>
+
+nmap -sV <target>
+
+nmap -O <target>
+
+nmap -A <target>
+
+nmap -oN scan.txt <target>
+
+
+
 ## Over The Wire
 
 Reached level: 10-12
