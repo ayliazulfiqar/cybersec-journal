@@ -51,3 +51,27 @@ This is where the real work happens. Your browser sends an HTTP/HTTPS GET reques
 
 • Step 6: The Silent Inspector (ICMP) 
 While you browse, ICMP runs silently in the background. It isn't used to load the webpage, but it handles network diagnostics. If a router along the way crashes or a network path breaks, ICMP sends a "Destination Unreachable" message back to your machine to report the network failure.
+
+
+# Wireshark observation:
+
+## Observation: TCP Three-Way Handshake
+
+**Objective:** To observe the TCP three-way handshake while establishing an HTTP connection to `example.com` using the command `curl http://example.com`.
+
+**Procedure:**  
+A packet capture was started before executing the curl command in the terminal. After the connection was initiated, the capture was stopped and filtered using `ip.addr == 93.184.216.34 or tcp.port == 80` to identify the TCP packets associated with the HTTP connection.
+
+**Observations:**
+
+The first three TCP packets demonstrate the TCP three-way handshake:
+
+1. **SYN:** The client sends a SYN packet to the server to initiate a TCP connection.
+2. **SYN-ACK:** The server responds with a SYN-ACK packet to acknowledge the client's request and indicate that it is ready to establish the connection.
+3. **ACK:** The client sends an ACK packet to acknowledge the server's response, completing the TCP three-way handshake.
+
+| Packet | Source (Sender) | Destination (Receiver) | TCP Flag |
+|---|---|---|---|
+| 1 | Client IP address | Server IP address | SYN |
+| 2 | Server IP address | Client IP address | SYN-ACK |
+| 3 | Client IP address | Server IP address | ACK |
