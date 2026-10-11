@@ -1,6 +1,6 @@
 What is the difference between an IP address and a MAC address?
 
-A MAC address is a permanent, physical or hardware-based  identifier of a device on a local network, while an IP address is a temporary, assigned numerical identifier of a device, used to route data over the internet
+A MAC address is a permanent, physical or hardware-based  identifier of a device on a local network, while an IP address is a temporary, assigned numerical identifier of a device, used to route data over the internet.
 
 What does a port number do?
 
@@ -23,3 +23,31 @@ DNS uses UDP because queries are tiny, and the request-response is simple, makin
 What does ARP do, and when is it needed?
 
 ARP finds the MAC address of an assigned IP over a local network. It is needed when a device knows a destination IP but needs its MAC address to send the data. Once found, the device saves it to its ARP cache.
+
+## The 6 steps website story (in my words)
+
+When we load a website webpage, it gives an instant response, but behind the scenes it performs 6 steps with different networking protocols.
+
+• Step 1: Getting an Identity (DHCP) 
+Before you even type a URL, your machine needs a logical identity so the internet knows where to send data. When you connect to Wi-Fi, the router uses a protocol called DHCP to automatically assign your machine a unique IP address.
+
+• Step 2: Finding the Local Exit (ARP) 
+To send any request to the internet, your machine must first send it to your local router. Your machine knows the router’s IP, but local networks talk using physical MAC addresses. Your machine broadcasts an ARP request: "Who has this IP? Tell me your MAC address!" The router replies with its MAC address, which your machine saves in its ARP cache so it doesn't have to ask again.
+
+• Step 3: Translating the Name (DNS over UDP) 
+Computers don't understand names like google.com; they only understand numbers (IP addresses). Your machine sends a DNS request to look up the website's IP. This request is sent using UDP because it is incredibly fast and doesn't require a complex connection setup.
+
+• Step 4: The Digital Handshake (TCP 3-Way Handshake) 
+Now that your machine knows the website's IP, it establishes a reliable connection using TCP. They perform a 3-way handshake:
+
+	1. SYN: Your machine asks the server to open a connection.
+  
+	2. SYN-ACK: The server agrees and asks to open its side of the connection.
+  
+	3. ACK: Your machine confirms, and the secure highway is ready.
+  
+• Step 5: Delivering the Goods (HTTP/HTTPS Data Flow) 
+This is where the real work happens. Your browser sends an HTTP/HTTPS GET request over the established TCP connection. The server responds by streaming the website files (HTML, CSS, images), and your browser renders them on your screen.
+
+• Step 6: The Silent Inspector (ICMP) 
+While you browse, ICMP runs silently in the background. It isn't used to load the webpage, but it handles network diagnostics. If a router along the way crashes or a network path breaks, ICMP sends a "Destination Unreachable" message back to your machine to report the network failure.
