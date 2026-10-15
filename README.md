@@ -29,7 +29,8 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 6 | Cisco Networking Basics and Packet Tracer | [day-06.md](day-06.md) |
 | 7 | Networking checkpoint, how the web works, HTTP | [day-07.md](day-07.md) |
 | 8 | Burp Suite basics | [day-08.md](day-08.md) |
-| 9 | SQL injection (in progress) | [day-09.md](day-09.md) |
+| 9 | SQL injection | [day-09.md](day-09.md) |
+| 10 | UNION Attacks | [day-10.md](day-10.md) |
 
 ##  Skills and tools so far
 
