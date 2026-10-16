@@ -1,8 +1,8 @@
-# Day - 05 
+# Day - 05 Reinforcing networking: TCP handshake in Wireshark
 
 What is the difference between an IP address and a MAC address?
 
-A MAC address is a permanent, physical or hardware-based  identifier of a device on a local network, while an IP address is a temporary, assigned numerical identifier of a device, used to route data over the internet.
+A MAC address is a permanent, physical, hardware-based identifier for a device on a local network. In contrast, an IP address is a temporary, assigned numerical identifier used to route data over the internet.
 
 What does a port number do?
 
