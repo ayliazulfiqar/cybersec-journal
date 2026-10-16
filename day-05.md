@@ -1,3 +1,5 @@
+# Day - 05 
+
 What is the difference between an IP address and a MAC address?
 
 A MAC address is a permanent, physical or hardware-based  identifier of a device on a local network, while an IP address is a temporary, assigned numerical identifier of a device, used to route data over the internet.
