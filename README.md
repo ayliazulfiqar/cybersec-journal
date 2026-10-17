@@ -32,6 +32,8 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 9 | SQL injection | [day-09.md](day-09.md) |
 | 10 | UNION Attacks | [day-10.md](day-10.md) |
 | 11 | Review and reset | [day-11.md](day-11.md) |
+| 12 | Cross-Site Scripting (XSS) | [day-12.md](day-12.md) |
+
 
 ##  Skills and tools so far
 
