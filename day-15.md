@@ -7,7 +7,7 @@
 - Drew the lab diagram and started the project README
 
 ## Project link
- [Project 1: Home Hacking Lab](README.md)
+ [Project 1: Home Hacking Lab](home-lab/README.md)
 
 ## What went well
 
