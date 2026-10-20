@@ -34,6 +34,8 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 11 | Review and reset | [day-11.md](day-11.md) |
 | 12 | Cross-Site Scripting (XSS) | [day-12.md](day-12.md) |
 | 13 | Authentication Vulnerabilities | [day-13.md](day-13.md) |
+| 14 | Web Security Review | [day-14.md](day-14.md) |
+| 15 | Project 1, Session 1 (Home Hacking Lab setup) | [day-15.md](day-15.md) |
 
 ##  Skills and tools so far
 
