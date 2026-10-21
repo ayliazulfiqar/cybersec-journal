@@ -14,8 +14,8 @@
 
 ## Project Link
 
-👉 [Project 1: Home Hacking Lab](project-01-home-lab/README.md)
-
+[Project 1: Home Hacking Lab]([home-lab/README.md](https://github.com/ayliazulfiqar/home-lab))
+ 
 ## What went well
 
 - I successfully configured the lab network and identified both machines' IP addresses.
