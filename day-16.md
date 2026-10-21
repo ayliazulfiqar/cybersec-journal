@@ -1,4 +1,4 @@
-# Day 17 - Project 1, Session 2 — Isolated Lab Network
+# Day 16 - Project 1, Session 2 — Isolated Lab Network
 
 ## What I did today
 
