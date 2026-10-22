@@ -20,4 +20,5 @@ Brute Force was the hardest part because I found it difficult to identify potent
 - How common web vulnerabilities work and how Burp Suite helps inspect HTTP requests and responses.
 - How developers can prevent SQL Injection, XSS, and brute-force attacks using secure coding practices and login protections.
 
+- **Project Folder:** [Project 1: Home Hacking Lab]([home-lab/README.md](https://github.com/ayliazulfiqar/home-lab))
 - **Project status:** [Done]
