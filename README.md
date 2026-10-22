@@ -37,6 +37,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 14 | Web Security Review | [day-14.md](day-14.md) |
 | 15 | Project 1, Session 1 (Home Hacking Lab setup) | [day-15.md](day-15.md) |
 | 16 | Project 1, Session 2 — Isolated Lab Network | [day-16.md](day-16.md) |
+| 17 | Project 1, Session 2 — Network Scanning, Wireshark and Web Attacks| [day-17.md](day-17.md) |
 
 ##  Skills and tools so far
 
@@ -61,7 +62,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 - [x] Networking fundamentals
 - [x] Wireshark and Nmap
 - [x] HTTP and Burp Suite basics
-- [ ] Web vulnerabilities (SQL injection, XSS, authentication flaws)
+- [x] Web vulnerabilities (SQL injection, XSS, authentication flaws)
 - [ ] Beginner practice boxes (TryHackMe, Hack The Box Starting Point)
 - [ ] Privilege escalation and Active Directory basics
 - [ ] MITRE ATT&CK framework
