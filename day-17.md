@@ -1,4 +1,4 @@
-# Day 18 - Project 1, Session 3 — Network Scanning, Wireshark, and Web Attacks
+# Day 17 - Project 1, Session 3 — Network Scanning, Wireshark, and Web Attacks
 
 ## What I Did
 - Started Kali Linux and my target VM and checked network connectivity.
