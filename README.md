@@ -38,13 +38,17 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 15 | Project 1, Session 1 (Home Hacking Lab setup) | [day-15.md](day-15.md) |
 | 16 | Project 1, Session 2 — Isolated Lab Network | [day-16.md](day-16.md) |
 | 17 | Project 1, Session 2 — Network Scanning, Wireshark and Web Attacks| [day-17.md](day-17.md) |
+| 18 | Linux Privilege Escalation | [day-18.md](day-18.md) |
+
+
 
 ##  Skills and tools so far
 
-- **Operating systems:** Linux command line, file permissions, searching with `find` and `grep`
-- **Networking:** IP and MAC addressing, DNS, ARP, ICMP, TCP vs UDP, the three-way handshake, ports
-- **Tools:** Wireshark, Nmap, Burp Suite Community Edition, Cisco Packet Tracer, Kali Linux
-- **Web:** HTTP requests and responses, status codes, cookies, browser developer tools
+- **Operating systems:** Linux command line, file permissions, searching with find and grep, Linux privilege escalation basics (misconfigurations, weak file permissions, cron jobs), Linux Mint as host OS
+- **Networking:** IP and MAC addressing, DNS, ARP, ICMP, TCP vs UDP, the three-way handshake, ports, host-only/isolated lab networks
+- **Tools:** Wireshark, Nmap, Burp Suite Community Edition, Cisco Packet Tracer, Kali Linux, VirtualBox, Metasploitable, DVWA, LinPEAS
+- **Web:** HTTP requests and responses, status codes, cookies, browser developer tools, SQL injection (including UNION attacks), cross-site scripting (XSS), authentication flaws
+- **Lab and practice:** Built an isolated home hacking lab (Kali attacker plus vulnerable targets), captured and analysed lab scans in Wireshark, documented work on GitHub
 - **Scripting:** Python
 
 ##  Free resources I use
@@ -53,7 +57,6 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 - [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/): Linux and command line practice
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security): web vulnerability labs
 - [Cisco Networking Academy](https://www.netacad.com): Networking Basics course
-- [Professor Messer](https://www.professormesser.com): free Network+ and Security+ videos
 - [picoCTF](https://picoctf.org): beginner-friendly CTF challenges
 
 ##  Roadmap
