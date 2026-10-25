@@ -45,7 +45,12 @@ Areas reviewed included:
 - Cron jobs
 - Writable files and directories
 
-**Observations:** [Record the relevant findings shown by LinPEAS.]
+**Observations:** 
+- **Sudo:** Reviewed available sudo permissions for the practice user.
+- **SUID:** Scanned for SUID executables and noted any unusual entries for further investigation.
+- **Cron:** Identified the scheduled root job that runs `/opt/backup.sh`.
+- **File permissions:** Confirmed that `/opt/backup.sh` was writable by other users during the intentionally vulnerable lab.
+- **Conclusion:** The writable script combined with a root-run cron job demonstrates a privilege-escalation risk. The script should be owned by root and not writable by untrusted users.
 
 ## Remediation
 
@@ -54,11 +59,6 @@ Areas reviewed included:
 - **File permissions:** Make privileged scripts owned by root and prevent ordinary users from modifying them. For example, use `chown root:root` and suitable permissions such as `chmod 755`.
 - **Cron jobs:** Protect scheduled scripts, directories, and dependencies from unauthorized modification.
 - **Enumeration:** Verify potential findings manually instead of treating every automated warning as a confirmed vulnerability.
-
-## Cleanup
-
-- [ ] Restored the `before-privesc-2` snapshot.
-- [ ] Verified that the deliberate configuration changes were removed.
 
 ## Key Takeaways
 
