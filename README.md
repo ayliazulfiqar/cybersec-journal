@@ -40,6 +40,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 17 | Project 1, Session 2 — Network Scanning, Wireshark and Web Attacks| [day-17.md](day-17.md) |
 | 18 | Linux Privilege Escalation | [day-18.md](day-18.md) |
 | 19 | Linux Privilege Escalation, Part 2 | [day-19.md](day-19.md) |
+| 20 | Checkpoint and Project 2 planning | [day-20.md](day-20.md) |
 
 ##  Skills and tools so far
 
@@ -48,6 +49,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 - **Tools:** Wireshark, Nmap, Burp Suite Community Edition, Cisco Packet Tracer, Kali Linux, VirtualBox, Metasploitable, DVWA, LinPEAS
 - **Web:** HTTP requests and responses, status codes, cookies, browser developer tools, SQL injection (including UNION attacks), cross-site scripting (XSS), authentication flaws
 - **Lab and practice:** Built an isolated home hacking lab (Kali attacker plus vulnerable targets), captured and analysed lab scans in Wireshark, documented work on GitHub
+- **Privilege escalation:** Linux sudo misconfigurations, SUID files, weak file permissions, cron jobs, LinPEAS enumeration, GTFOBins
 - **Scripting:** Python
 
 ##  Free resources I use
@@ -70,6 +72,13 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 - [ ] MITRE ATT&CK framework
 - [ ] First public CTF
 - [ ] Certification: eJPT or Security+
+
+##  Projects
+
+| S.no | Project | Status |
+|---|---|---|
+| 1 | Home hacking lab (Kali + vulnerable VM) | Done: [view](home-hacking-lab/README.md) |
+| 2 | Python port scanner | Planned: [view](port-scanner/README.md) |
 
 ##  Ethics
 
