@@ -41,6 +41,11 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 18 | Linux Privilege Escalation | [day-18.md](day-18.md) |
 | 19 | Linux Privilege Escalation, Part 2 | [day-19.md](day-19.md) |
 | 20 | Checkpoint and Project 2 planning | [day-20.md](day-20.md) |
+| 21 | Project 2, Session 1 (Port Scanner v1)| [day-21.md](day-21.md) |
+| 22 | Project 2, Session 2 (Port Scanner v2) | [day-22.md](day-22.md) |
+| 23 | Project 2, Session 2 (Port Scanner v3) | [day-23.md](day-23.md) |
+| 24 | Project 2 Complete| [day-24.md](day-24.md) |
+| 25 | Access Control and IDOR | [day-25.md](day-25.md) |
 
 ##  Skills and tools so far
 
