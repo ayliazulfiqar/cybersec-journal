@@ -46,6 +46,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 23 | Project 2, Session 2 (Port Scanner v3) | [day-23.md](day-23.md) |
 | 24 | Project 2 Complete| [day-24.md](day-24.md) |
 | 25 | Access Control and IDOR | [day-25.md](day-25.md) |
+| 26 | Path Traversal and Command Injection | [day-26.md](day-26.md) |
 
 ##  Skills and tools so far
 
