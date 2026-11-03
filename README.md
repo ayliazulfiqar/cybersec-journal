@@ -47,6 +47,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 24 | Project 2 Complete| [day-24.md](day-24.md) |
 | 25 | Access Control and IDOR | [day-25.md](day-25.md) |
 | 26 | Path Traversal and Command Injection | [day-26.md](day-26.md) |
+| 26 | Box day (thm) WEb Application Security [day-27.md](day-27.md) |
 
 ##  Skills and tools so far
 
