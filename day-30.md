@@ -77,7 +77,7 @@ monitoring unusual directory queries.
 
 ## 5. My Active Directory Diagram
 
-![My AD Network Diagram](ad-network-diagram.png)
+<img width="472" height="512" alt="ad-network-diagram" src="https://github.com/user-attachments/assets/a6598f08-9824-4e2d-bf05-ce86e1d78237" />
 
 ## 6. What I Learned
 
