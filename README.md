@@ -47,7 +47,12 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 24 | Project 2 Complete| [day-24.md](day-24.md) |
 | 25 | Access Control and IDOR | [day-25.md](day-25.md) |
 | 26 | Path Traversal and Command Injection | [day-26.md](day-26.md) |
-| 26 | Box day (thm) WEb Application Security [day-27.md](day-27.md) |
+| 27 | Box day (thm) WEb Application Security [day-27.md](day-27.md) |
+| 28 | Cross-Site Request Forgery (CSRF) and Server-Side Request Forgery (SSRF) [day-28.md](day-28.md) |
+| 29 | MITRE ATT&CK [day-29.md](day-29.md) |
+| 30 | Active Directory Basics [day-30.md](day-30.md) |
+| 31 | Vulnerability Assessment Findings [day-31.md](day-31.md) |
+| 32 | Month Review [day-32.md](day-32.md) |
 
 ##  Skills and tools so far
 
@@ -55,9 +60,12 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 - **Networking:** IP and MAC addressing, DNS, ARP, ICMP, TCP vs UDP, the three-way handshake, ports, host-only/isolated lab networks
 - **Tools:** Wireshark, Nmap, Burp Suite Community Edition, Cisco Packet Tracer, Kali Linux, VirtualBox, Metasploitable, DVWA, LinPEAS
 - **Web:** HTTP requests and responses, status codes, cookies, browser developer tools, SQL injection (including UNION attacks), cross-site scripting (XSS), authentication flaws
-- **Lab and practice:** Built an isolated home hacking lab (Kali attacker plus vulnerable targets), captured and analysed lab scans in Wireshark, documented work on GitHub
+- **Lab and practice:** Built an isolated home hacking lab (Kali attacker plus vulnerable targets), captured and analysed lab scans in Wireshark, documented work on GitHub, Finding-style security reporting.
 - **Privilege escalation:** Linux sudo misconfigurations, SUID files, weak file permissions, cron jobs, LinPEAS enumeration, GTFOBins
 - **Scripting:** Python
+- **Security Workframes:** MITRE ATT&CK framework, including tactics and techniques.
+- **Window and Active Directory:** Active Directory fundamentals, including users, groups, authentication, permissions, and common security risks.
+
 
 ##  Free resources I use
 
@@ -73,10 +81,13 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 - [x] Networking fundamentals
 - [x] Wireshark and Nmap
 - [x] HTTP and Burp Suite basics
+- [x] Web security basics
 - [x] Web vulnerabilities (SQL injection, XSS, authentication flaws)
-- [ ] Beginner practice boxes (TryHackMe, Hack The Box Starting Point)
-- [ ] Privilege escalation and Active Directory basics
-- [ ] MITRE ATT&CK framework
+- [x] Beginner practice boxes (TryHackMe, Hack The Box Starting Point)
+- [x] Privilege escalation and Active Directory basics
+- [x] MITRE ATT&CK framework
+- [x] Active Directory concepts
+- [ ] Linux server hardening
 - [ ] First public CTF
 - [ ] Certification: eJPT or Security+
 
@@ -85,7 +96,8 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | S.no | Project | Status |
 |---|---|---|
 | 1 | Home hacking lab (Kali + vulnerable VM) | Done: [view](home-hacking-lab/README.md) |
-| 2 | Python port scanner | Planned: [view](port-scanner/README.md) |
+| 2 | Python port scanner | Done: [view](port-scanner/README.md) |
+| 3 | Hardened Linux Server | Planned: [view](hardened-server/README.md) |
 
 ##  Ethics
 
