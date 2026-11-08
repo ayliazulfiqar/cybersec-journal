@@ -47,12 +47,12 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 24 | Project 2 Complete| [day-24.md](day-24.md) |
 | 25 | Access Control and IDOR | [day-25.md](day-25.md) |
 | 26 | Path Traversal and Command Injection | [day-26.md](day-26.md) |
-| 27 | Box day (thm) WEb Application Security [day-27.md](day-27.md) |
-| 28 | Cross-Site Request Forgery (CSRF) and Server-Side Request Forgery (SSRF) [day-28.md](day-28.md) |
-| 29 | MITRE ATT&CK [day-29.md](day-29.md) |
-| 30 | Active Directory Basics [day-30.md](day-30.md) |
-| 31 | Vulnerability Assessment Findings [day-31.md](day-31.md) |
-| 32 | Month Review [day-32.md](day-32.md) |
+| 27 | Box day (thm) WEb Application Security | [day-27.md](day-27.md) |
+| 28 | Cross-Site Request Forgery (CSRF) and Server-Side Request Forgery (SSRF) | [day-28.md](day-28.md) |
+| 29 | MITRE ATT&CK | [day-29.md](day-29.md) |
+| 30 | Active Directory Basics | [day-30.md](day-30.md) |
+| 31 | Vulnerability Assessment Findings | [day-31.md](day-31.md) |
+| 32 | Month Review | [day-32.md](day-32.md) |
 
 ##  Skills and tools so far
 
