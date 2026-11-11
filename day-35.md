@@ -1,4 +1,4 @@
-# Day 34 – Project 3: Hardened Linux Server
+# Day 35 – Project 3: Hardened Linux Server
 
 ## Objectives
 
