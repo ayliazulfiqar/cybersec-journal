@@ -53,6 +53,10 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 | 30 | Active Directory Basics | [day-30.md](day-30.md) |
 | 31 | Vulnerability Assessment Findings | [day-31.md](day-31.md) |
 | 32 | Month Review | [day-32.md](day-32.md) |
+| 33 | Project: Build the Server and Record the Baseline | [day-33.md](day-33.md) |
+| 34 | Project: Linux Server Hardening | [day-34.md](day-34.md) |
+| 35 | Project: Linux Server Hardening | [day-35.md](day-35.md) |
+| 36 | Final Re-test and Project Completion | [day-36.md](day-36.md) |
 
 ##  Skills and tools so far
 
@@ -87,7 +91,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 - [x] Privilege escalation and Active Directory basics
 - [x] MITRE ATT&CK framework
 - [x] Active Directory concepts
-- [ ] Linux server hardening
+- [x] Linux server hardening
 - [ ] First public CTF
 - [ ] Certification: eJPT or Security+
 
@@ -97,7 +101,7 @@ Land an entry-level cybersecurity role (junior pentester, SOC, or security analy
 |---|---|---|
 | 1 | Home hacking lab (Kali + vulnerable VM) | Done: [view](home-hacking-lab/README.md) |
 | 2 | Python port scanner | Done: [view](port-scanner/README.md) |
-| 3 | Hardened Linux Server | Planned: [view](hardened-server/README.md) |
+| 3 | Hardened Linux Server | Done : [view](hardened-server/README.md) |
 
 ##  Ethics
 
