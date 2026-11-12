@@ -1,5 +1,9 @@
 # Day 35 – Project 3: Hardened Linux Server
 
+## Project
+
+[Project 3 – Linux Server Hardening](/hardened-server/README.md)
+
 ## Objectives
 
 - Configure Fail2ban to protect SSH against repeated failed login attempts.
