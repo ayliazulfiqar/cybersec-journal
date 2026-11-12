@@ -2,7 +2,7 @@
 
 ## Project
 
-[Project 3: Build the Server and Record the Baseline](./hardened-server/README.md)
+[Project 3: Build the Server and Record the Baseline](https://github.com/ayliazulfiqar/hardened-server)
 
 ## Completed Work
 
