@@ -2,7 +2,7 @@
 
 ## Project
 
-[Project 3 – Linux Server Hardening](/hardened-server/README.md)
+[Project 3 – Linux Server Hardening](https://github.com/ayliazulfiqar/hardened-server)
 
 ## Objective
 
