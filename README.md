@@ -1,4 +1,4 @@
-# Cybersec-Journal
+
 
 A public log of my journey into cybersecurity, with red teaming as my long-term goal. I study **2 hours every day** using only free resources, and I write up what I learn so I can prove it, not just claim it.
 
